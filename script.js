@@ -465,7 +465,7 @@ El resultado debe ser una obra maestra digital que combine la elegancia de Apple
                     console.log('✅ HTML generado por Gemini AI');
                     
                     return {
-                        response: 'He creado una página web completamente personalizada usando inteligencia artificial Gemini. El diseño y contenido han sido generados específicamente para tu solicitud.',
+                        response: 'He creado una página web completamente personalizada usando DevCenter Code IA. El diseño y contenido han sido generados específicamente para tu solicitud.',
                         html: htmlContent
                     };
                 }
@@ -1417,7 +1417,7 @@ El resultado debe ser una obra maestra digital que combine la elegancia de Apple
         const inputCode = elements.codeInput.value.trim();
         
         if (!inputCode) {
-            showCodeMessage('Por favor, ingresa el código encontrado en el archivo HTML.', 'warning');
+            showCodeMessage('Por favor, introduce el código proporcionado.', 'warning');
             return;
         }
         
@@ -1434,7 +1434,7 @@ El resultado debe ser una obra maestra digital que combine la elegancia de Apple
                 window.location.href = './DevCenter/DevCenter.html?code=' + encodeURIComponent(state.currentCode);
             }, 2000);
         } else {
-            showCodeMessage('El código no coincide. Verifica que hayas copiado correctamente el código del archivo HTML.', 'error');
+            showCodeMessage('El código no coincide. Verifica que hayas copiado correctamente el código.', 'error');
         }
     }
 
