@@ -1,0 +1,14 @@
+{
+  "codes": {
+    "2025-09-28 20:48&W&30395": "https://mi-ejemplo-restaurante.netlify.app",
+    "1": "https://mi-tienda-online.netlify.app",
+    "2025-09-28 20:48&W&3039": "https://mi1-negocio-profesional.netlify.app",
+    "2025-09-28 21:12&W&3039": "https://mi-proyecto-ejemplo.netlify.app",
+    "2025-09-28 21:34&W&3039": "https://mi-nuevo-proyecto.netlify.app"
+  },
+  "meta": {
+    "description": "Archivo de mapeo de códigos a URLs para DevCenter IA Code",
+    "version": "1.0.0",
+    "updated": "2025-09-28T20:42:00.000Z"
+  }
+}
